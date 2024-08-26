@@ -764,7 +764,7 @@ public class JSONObjectTest {
     @Test
     public void jsonObjectByResourceBundle() {
         JSONObject jsonObject = new
-                JSONObject("org.json.junit.data.StringsResourceBundle",
+                JSONObject("com.currenthealth.json.junit.data.StringsResourceBundle",
                         Locale.getDefault());
 
         // validate JSON
@@ -3628,7 +3628,7 @@ public class JSONObjectTest {
         jsonObject.put("key3", new JSONObject());
         jsonObject.clear(); //Clears the JSONObject
         assertTrue("expected jsonObject.length() == 0", jsonObject.length() == 0); //Check if its length is 0
-        jsonObject.getInt("key1"); //Should throws org.json.JSONException: JSONObject["asd"] not found
+        jsonObject.getInt("key1"); //Should throws com.currenthealth.json.JSONException: JSONObject["asd"] not found
         Util.checkJSONObjectMaps(jsonObject);
     }
 

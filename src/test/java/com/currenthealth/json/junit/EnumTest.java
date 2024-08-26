@@ -202,7 +202,7 @@ public class EnumTest {
          * However, an enum within another class will not be rendered
          * unless that class overrides default toString() 
          */
-        String expectedStr3 = "\"org.json.junit.data.MyEnumClass@";
+        String expectedStr3 = "\"com.currenthealth.json.junit.data.MyEnumClass@";
         myEnumClass.setMyEnum(MyEnum.VAL1);
         myEnumClass.setMyEnumField(MyEnumField.VAL1);
         String str3 = JSONObject.valueToString(myEnumClass);

@@ -13,7 +13,7 @@ import com.currenthealth.json.JSONArray;
 import com.currenthealth.json.JSONException;
 import com.currenthealth.json.JSONObject;
 import com.currenthealth.json.JSONStringer;
-import org.json.*;
+import com.currenthealth.json.*;
 import org.junit.Test;
 
 import com.jayway.jsonpath.*;

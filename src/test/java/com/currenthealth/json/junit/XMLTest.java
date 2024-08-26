@@ -29,7 +29,7 @@ import com.currenthealth.json.JSONTokener;
 import com.currenthealth.json.XML;
 import com.currenthealth.json.XMLParserConfiguration;
 import com.currenthealth.json.XMLXsiTypeConverter;
-import org.json.*;
+import com.currenthealth.json.*;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;

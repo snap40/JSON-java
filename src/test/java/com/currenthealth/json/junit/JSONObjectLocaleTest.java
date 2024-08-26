@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 import java.util.*;
 
 import com.currenthealth.json.JSONObject;
-import org.json.*;
+import com.currenthealth.json.*;
 import com.currenthealth.json.junit.data.MyLocaleBean;
 import org.junit.*;
 

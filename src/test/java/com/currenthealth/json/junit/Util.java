@@ -10,7 +10,7 @@ import java.util.*;
 
 import com.currenthealth.json.JSONArray;
 import com.currenthealth.json.JSONObject;
-import org.json.*;
+import com.currenthealth.json.*;
 
 /**
  * These are helpful utility methods that perform basic comparisons

@@ -17,11 +17,11 @@ import com.currenthealth.json.JSONException;
 import com.currenthealth.json.JSONML;
 import com.currenthealth.json.JSONMLParserConfiguration;
 import com.currenthealth.json.JSONObject;
-import org.json.*;
+import com.currenthealth.json.*;
 import org.junit.Test;
 
 /**
- * Tests for org.json.JSONML.java
+ * Tests for com.currenthealth.json.JSONML.java
  *
  * Certain inputs are expected to result in exceptions. These tests are
  * executed first. JSONML provides an API to:
@@ -149,7 +149,7 @@ public class JSONMLTest {
             assertTrue("Expecting an exception", false);
         } catch (JSONException e) {
             assertEquals("Expecting an exception message",
-                "JSONArray[0] is not a String (class org.json.JSONArray).",
+                "JSONArray[0] is not a String (class com.currenthealth.json.JSONArray).",
                 e.getMessage());
         }
     }

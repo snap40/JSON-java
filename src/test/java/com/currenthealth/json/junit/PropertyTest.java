@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 import com.currenthealth.json.JSONObject;
 import com.currenthealth.json.Property;
-import org.json.*;
+import com.currenthealth.json.*;
 import org.junit.Test;
 
 

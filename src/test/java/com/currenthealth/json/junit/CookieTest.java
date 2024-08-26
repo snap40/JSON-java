@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 import com.currenthealth.json.Cookie;
 import com.currenthealth.json.JSONException;
 import com.currenthealth.json.JSONObject;
-import org.json.*;
+import com.currenthealth.json.*;
 import org.junit.Test;
 
 

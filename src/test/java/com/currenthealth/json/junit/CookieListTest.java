@@ -11,7 +11,7 @@ import java.util.*;
 import com.currenthealth.json.CookieList;
 import com.currenthealth.json.JSONException;
 import com.currenthealth.json.JSONObject;
-import org.json.*;
+import com.currenthealth.json.*;
 import org.junit.Test;
 
 import com.jayway.jsonpath.*;
