@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+
+        maven {
+            url "https://nexus.snap40.com/repository/maven-public/"
+            credentials {
+                username System.getenv('nexus_username')
+                password System.getenv('nexus_password')
+            }
+        }
+
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'services.device-management'
