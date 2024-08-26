@@ -62,7 +62,7 @@ javac -cp .:json-java.jar Test.java (Unix Systems)
 *Test file contents*
 
 ```java
-import org.json.JSONObject;
+import com.currenthealth.json.JSONObject;
 public class Test {
     public static void main(String args[]){
        JSONObject jo = new JSONObject("{ \"abc\" : \"def\" }");
